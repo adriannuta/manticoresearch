@@ -18,6 +18,8 @@
   <a href="https://twitter.com/manticoresearch">Twitter</a>
 </h3>
 
+<p>&nbsp;</p>
+
 # Introduction
 Manticore Search is a database designed specifically for search, including full-text search. What differs it from other solutions is:
 * SQL-first: the native Manticore's syntax is SQL. It speaks SQL over HTTP and MySQL protocol (you can use your preferred mysql client)
