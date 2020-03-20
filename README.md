@@ -33,7 +33,7 @@ Manticore Search is a database designed specifically for search, including full-
 
 [Craigslist](https://www.craigslist.org/), [Socialgist](https://socialgist.com/), [PubChem](https://pubchem.ncbi.nlm.nih.gov/) and many others use Manticore for efficient searching and stream filtering.
 
-## More features
+# More features
 * Full-text search and relevance:
   - Over 20 [full-text operators](https://play.manticoresearch.com/fulltextintro/) and over 20 ranking factors
   - Custom ranking
