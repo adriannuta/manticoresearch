@@ -24,11 +24,11 @@
 Manticore Search is a database designed specifically for search, including full-text search. What differs it from other solutions is:
 * SQL-first: the native Manticore's syntax is SQL. It speaks SQL over HTTP and MySQL protocol (you can use your preferred mysql client)
 * JSON over HTTP: to provide more programmatic way to manage your data and schemas Manticore provides HTTP JSON protocol. Very similar to the one from Elasticsearch
-* Written fully in C++, starts fast, doesn't take much RAM
-* Real-time inserts: after INSERT is made the document is available for search immediately
+* Written fully in C++: starts fast, doesn't take much RAM, low-level optimizations give good performance
+* Real-time inserts: after INSERT is made the document can be read immediately
 * [Interactive courses](https://play.manticoresearch.com/) for easier learning
-* Built-in replication
-* Can sync from mysql/postgresql/ODBC/xml/csv out of the box
+* Built-in replication and load balancing
+* Can sync from MySQL/Postgresql/ODBC/xml/csv out of the box
 * Not fully ACID-compliant, but supports transactions and binlog for safe writes
 
 [Craigslist](https://www.craigslist.org/), [Socialgist](https://socialgist.com/), [PubChem](https://pubchem.ncbi.nlm.nih.gov/) and many others use Manticore for efficient searching and stream filtering.
@@ -116,10 +116,10 @@ See [instruction here](https://docs.manticoresearch.com/latest/html/installation
   * [Interactive courses](https://play.manticoresearch.com)
   * [Documentation](https://docs.manticoresearch.com)
   * [Manticore Community Forum](https://forum.manticoresearch.com/)
-  * [Public Slack channel](http://slack.manticoresearch.com/)
+  * [Public Slack chat](http://slack.manticoresearch.com/)
   * [Bug tracker](https://github.com/manticoresoftware/manticore/issues)
 
-# Commercial support and other services
+# How we can support you
 Should your company require any help - we provide full-cycle services in the areas of Sphinx and Manticore Search:
   * Audit
   * Support
@@ -129,7 +129,11 @@ Should your company require any help - we provide full-cycle services in the are
 
 [More details here](https://manticoresearch.com/services/)
 
-[![Analytics](https://ga-beacon.appspot.com/UA-114439919-1/manticoresoftware/manticore/README.md?pixel&useReferer)](https://github.com/manticoresoftware/manticore)
+# ❤️ How you can support Manticore Search
 
-[slack-url]: https://slack.manticoresearch.com/
-[slack-badge]:  https://img.shields.io/badge/Slack-join%20chat-green.svg
+Manticore Search is a GPLv2-licensed open source project with development made possible by support from our core team, contributors, and sponsors. Building premium open-source software is not easy. If you would like to make sure Manticore Search stays free here is how:
+
+* [Donation through PayPal](https://www.paypal.me/manticoresearch)
+* [Become our client and let us help you](https://manticoresearch.com/services)
+
+[![Analytics](https://ga-beacon.appspot.com/UA-114439919-1/manticoresoftware/manticore/README.md?pixel&useReferer)](https://github.com/manticoresoftware/manticore)
