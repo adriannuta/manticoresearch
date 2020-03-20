@@ -10,6 +10,7 @@
 
 <h3 align="center">
   <a href="https://manticoresearch.com">Website</a> • 
+  <a href="http://bit.ly/2Q9uGj4">Downloads</a> • 
   <a href="https://docs.manticoresearch.com">Docs</a> • 
   <a href="https://play.manticoresearch.com">Courses</a> • 
   <a href="https://forum.manticoresearch.com">Forum</a> • 
@@ -17,17 +18,7 @@
   <a href="https://twitter.com/manticoresearch">Twitter</a>
 </h3>
 
-<a href="
-
 <p>&nbsp;</p>
-
-[![Release](https://img.shields.io/github/release/manticoresoftware/manticore.svg)](http://bit.ly/2Q9uGj4)
-[![GitHub last commit](https://img.shields.io/github/last-commit/manticoresoftware/manticore.svg)](https://github.com/manticoresoftware/manticore/commits/master)
-[![License](https://img.shields.io/github/license/manticoresoftware/manticore.svg?maxAge=2592000)](https://github.com/adriannuta/manticore/blob/master/COPYING)
-[![Twitter](https://img.shields.io/twitter/follow/manticoresearch.svg?style=social&label=Follow)](https://twitter.com/manticoresearch)
-
-
-# [Download here](http://bit.ly/2Q9uGj4)
 
 # Introduction
 Manticore Search is a database designed specifically for search, including full-text search. What differs it from other solutions is:
