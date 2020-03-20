@@ -18,8 +18,6 @@
   <a href="https://twitter.com/manticoresearch">Twitter</a>
 </h3>
 
-<p>&nbsp;</p>
-
 # Introduction
 Manticore Search is a database designed specifically for search, including full-text search. What differs it from other solutions is:
 * SQL-first: the native Manticore's syntax is SQL. It speaks SQL over HTTP and MySQL protocol (you can use your preferred mysql client)
@@ -44,12 +42,12 @@ Manticore Search is a database designed specifically for search, including full-
   - [Autocomplete](https://play.manticoresearch.com/simpleautocomplete/)
   - Wide range of functions for filtering and data manipulation
 * NLP:
-  - Stemming
-  - Lemmatization
-  - Stopwords
-  - Synonyms
-  - Wordforms
-  - Advanced tokenization at character and word level
+  - [Stemming](https://docs.manticoresearch.com/latest/html/conf_options_reference/index_configuration_options.html#morphology)
+  - [Lemmatization](https://docs.manticoresearch.com/latest/html/conf_options_reference/index_configuration_options.html#morphology)
+  - [Stopwords](https://docs.manticoresearch.com/latest/html/conf_options_reference/index_configuration_options.html#stopwords)
+  - [Synonyms](https://docs.manticoresearch.com/latest/html/conf_options_reference/index_configuration_options.html#exceptions)
+  - [Wordforms](https://docs.manticoresearch.com/latest/html/conf_options_reference/index_configuration_options.html#wordforms)
+  - [Advanced tokenization at character and word level](https://docs.manticoresearch.com/latest/html/conf_options_reference/index_configuration_options.html#charset-table)
   - [Proper Chinese segmentation](https://play.manticoresearch.com/icu-chinese/)
   - [Text highlighting](https://play.manticoresearch.com/highlighting/)
 * Stream filtering [using a "percolate" index](https://play.manticoresearch.com/pq/)
@@ -60,12 +58,20 @@ Manticore Search is a database designed specifically for search, including full-
 * Security:
   - [https support](https://play.manticoresearch.com/https/)
 * Data types:
-  - multiple in-memory numeric fields
+  - full-text field - inverted index
+  - integer and float in-memory numeric fields
   - in-memory "string" for fast filtering
   - on-disk "[stored](https://play.manticoresearch.com/docstore/)" for key-value purpose
   - JSON
-  - multi-value attribute
-
+  - multi-value attributes
+* Integrations:
+  - [Sync from MySQL and PostgreSQL](https://docs.manticoresearch.com/latest/html/indexing/sql_data_sources_mysql,_postgresql.html)
+  - [Sync from XML](https://docs.manticoresearch.com/latest/html/indexing/xmlpipe2_data_source.html)
+  - [Synx from CSV](https://docs.manticoresearch.com/latest/html/indexing/tsvcsv_data_source.html)
+  - [With MySQL as a storage engine](https://docs.manticoresearch.com/latest/html/mysql_storage_engine_sphinxse.html)
+  - [With MySQL via FEDERATED engine](https://docs.manticoresearch.com/latest/html/federated_storage_engine.html)
+  - [ProxySQL](https://manticoresearch.com/2018/06/18/using-proxysql-to-route-inserts-in-a-distributed-realtime-index/)
+  
 # Installation
 
 ### Docker
